@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("pics/1613686230_19-p-fon-dlya-prezentatsii-pogoda-19.jpg");
+    width: 100%;
+    height: 100%;
+    font-family: 'Montagu Slab', serif;
+    font-family: 'Playfair Display', serif;
+}
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    height: 300px;
+    width: 40vw;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    -webkit-box-shadow: 10px -7px 13px 1px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 10px -7px 13px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 10px -7px 13px 1px rgba(0, 0, 0, 0.26);
+}
+.icon{
+    flex: 0 100%;
+    height: 60%;
+    border-radius: 15px 15px 0 0;
+    background-color: #fff;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+i{
+    padding-top: 15px;
+}
+.past-chap{
+    flex-wrap: 0 0 70%;
+    height: 40%;
+    background-color: black;
+    border-radius: 0 0 0 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.temperatura{
+    flex: 0 0 40%;
+    width: 100%;
+    font-size: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.ong-yozu{
+   flex: 0 60%;
+   display: flex;
+   width: 20vw;
+   height: 100%;
+   justify-content: center; 
+   flex-direction: column;
+}
+.tepasi{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+}
+.pasi{
+    font-size: 15px;
+}
+.day{
+    flex: 0 0 36.3%;
+    height: 40%;
+    background-color: rgb(105, 182, 245);
+    border-radius: 0 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 100;
+}
